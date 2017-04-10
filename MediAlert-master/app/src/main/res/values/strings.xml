@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MediAlert</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nomeMedicacao">nomeMedicacao</string>
+    <string name="dosagem">dosagem</string>
+    <string name="salvar_alerta">salvar_alerta</string>
+        <string name="configuracoes">Configurações</string>
+        <string name="title_activity_controle">FIAP MediAlert/ Arduino</string>
+
+
+    <string-array name="intervalo_medicacao">
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>1 Hora</item>
+        <item>2 Horas</item>
+        <item>3 Horas</item>
+        <item>4 Horas</item>
+        <item>5 Horas</item>
+        <item>6 Horas</item>
+        <item>7 Horas</item>
+        <item>8 Horas</item>
+        <item>12 Horas</item>
+        <item>24 Horas</item>
+        <item>1 Semana</item>
+        <item>15 Dias</item>
+        <item>1 Mês</item>
+    </string-array>
+</resources>

@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:weightSum="1"
+    tools:context=".Controle">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Controles:"
+        android:id="@+id/textView2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#de064d" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conectar"
+        android:id="@+id/switchCon"
+        android:checked="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop = "20dp"/>
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acender Led"
+        android:id="@+id/switchLED"
+        android:checked="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop = "20dp"
+        android:enabled="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Brilho"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_marginTop = "20dp"/>
+
+    <SeekBar
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:max="255"
+        android:progress="1"
+        android:indeterminate="false"
+        android:layout_marginTop = "5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lum"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop = "5dp"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ler Porta"
+        android:id="@+id/switchPorta"
+        android:checked="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop = "20dp"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar para WS"
+        android:id="@+id/switchWS"
+        android:checked="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop = "20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/editText"
+        android:editable="false"
+        android:cursorVisible="false"
+        android:layout_marginTop = "20dp"
+        android:scrollbars="vertical"
+        android:textSize="18dp"
+        android:textColor="#e40960"
+        android:textStyle="bold" />
+
+</LinearLayout>
